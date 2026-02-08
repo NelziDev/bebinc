@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import Contact from "@/components/Contact";
+import ContentGate from "@/components/ContentGate";
 
 export default function Home() {
   return (
@@ -12,9 +13,11 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <Experience />
-        <Education />
-        <Contact />
+        <ContentGate>
+          <Experience />
+          <Education />
+          <Contact />
+        </ContentGate>
       </main>
     </>
   );

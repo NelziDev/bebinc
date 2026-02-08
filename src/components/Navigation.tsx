@@ -38,7 +38,7 @@ export default function Navigation() {
             href="#"
             className="font-display text-xl tracking-tight text-cream transition-colors hover:text-gold"
           >
-            CB
+            BebinC
           </a>
 
           {/* Desktop links */}
